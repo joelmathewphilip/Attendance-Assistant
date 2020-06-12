@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/day_list2"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="Day"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/p1_list2"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="P1"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/p2_list2"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:text="P2"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/p3_list2"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="P3"
+            />
+
+        <TextView
+            android:id="@+id/p4_list2"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="P4"
+            />
+
+        <TextView
+            android:id="@+id/evening_list2"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="EVENING"
+            />
+    </TableRow>
+</LinearLayout>
+
+
+</TableLayout>
